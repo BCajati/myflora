@@ -28,10 +28,18 @@ export default function Menu() {
 
             <Nav.Link>
               {' '}
+              <Link className="text-decoration-none text-white" to="/todo">
+                Todo
+              </Link>
+            </Nav.Link>
+
+            <Nav.Link>
+              {' '}
               <Link className="text-decoration-none text-white" to="/about">
                 About
               </Link>
             </Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

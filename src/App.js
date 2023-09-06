@@ -4,6 +4,7 @@ import Menu from './Components/Menu';
 import Flora from './Components/Flora';
 import About from './Components/About';
 import Home from './Components/Home';
+import Todo from './Components/Todo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 
@@ -16,6 +17,7 @@ function App() {
                 <Route exact path='/' element={<Home />}/>
                 <Route path='/Flora' element={<Flora/>}/>
                 <Route path='/About' element={<About/>}/>
+                <Route path='Todo' element={<Todo/>}/>
             </Routes>
         </Router>
     </div>
